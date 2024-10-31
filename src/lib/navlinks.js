@@ -24,7 +24,7 @@ export const navlinks = [
     title: "Dialog Box",
     icon: Settings,
     subItems: [
-      { title: "Dialog Box 1", url: "#" },
+      { title: "Confirmation", url: "/dialogs/confirmation-dialog" },
       { title: "Dialog Box 2", url: "#" },
       { title: "Dialog Box 3", url: "#" },
     ],
