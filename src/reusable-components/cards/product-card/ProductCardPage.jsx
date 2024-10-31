@@ -15,7 +15,7 @@ export function ProductCardPage() {
 
     return (
         <>
-            <Title componentTitle="Loading Button" githubUsername="nawalirfan" githubLink="https://github.com/nawalirfan" />
+            <Title componentTitle="Product Card" githubUsername="nawalirfan" githubLink="https://github.com/nawalirfan" />
             <Card className="flex-grow h-full w-full mb-5">
                 <CodeAndComponentViewer
                     component={<ProductCard

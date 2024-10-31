@@ -15,7 +15,7 @@ export function ConfirmDialogPage() {
 
     return (
         <>
-            <Title componentTitle="Gradient Button" githubUsername="nawalirfan" githubLink="https://github.com/nawalirfan" />
+            <Title componentTitle="Confirmation Dialog Box" githubUsername="nawalirfan" githubLink="https://github.com/nawalirfan" />
             <Card className="flex-grow h-[90%] w-full mb-5 overflow-hidden">
                 <CodeAndComponentViewer
                     component={
