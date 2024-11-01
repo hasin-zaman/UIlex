@@ -14,7 +14,7 @@ export const navlinks = [
     title: "Text",
     icon: Mail,
     subItems: [
-      { title: "Text 1", url: "#" },
+      { title: "Write Name", url: "/Text/writeName-text" },
       { title: "Text 2", url: "#" },
       { title: "Text 3", url: "#" },
     ],
