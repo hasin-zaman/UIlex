@@ -9,7 +9,7 @@ import { QuadLayerFillHoverButtonPage } from "@/reusable-components/buttons/quad
 import { RatingInputComponentPage } from "./reusable-components/rating/rating-input/RatingInputComponentPage";
 import { RatingScoreComponentPage } from "./reusable-components/rating/rating-score/RatingScoreComponentPage";
 import { ProductCardPage } from "./reusable-components/cards/product-card/ProductCardPage";
-import { ConfirmDialogPage } from "./reusable-components/dialogs/confirmation/confirmDialogPage";
+import { ConfirmDialogPage } from "./reusable-components/dialogs/confirmation/ConfirmDialogPage";
 
 function App() {
   return (

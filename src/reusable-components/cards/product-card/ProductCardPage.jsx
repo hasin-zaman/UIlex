@@ -16,7 +16,7 @@ export function ProductCardPage() {
     return (
         <>
             <Title componentTitle="Product Card" githubUsername="nawalirfan" githubLink="https://github.com/nawalirfan" />
-            <Card className="flex-grow h-full w-full mb-5">
+            <Card className="flex-grow h-[90%] w-full mb-5 overflow-hidden">
                 <CodeAndComponentViewer
                     component={<ProductCard
                         title={'IPhone 16 Pro Max 256gb Desert Titanium'}

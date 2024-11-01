@@ -1,68 +1,41 @@
-import { Inbox, Mail, Settings, Home, Phone, Cloud, Info, BotMessageSquare, Star } from "lucide-react";
+import { SendHorizontal, Type, Package2, SquareAsterisk, Bell, Star } from "lucide-react";
 
 export const navlinks = [
   {
     title: "Buttons",
-    icon: Inbox,
+    icon: SendHorizontal,
     subItems: [
       { title: "Loading Button", url: "/buttons/loading-button" },
       { title: "Gradient Button", url: "/buttons/gradient-button" },
       { title: "Quad Layer Fill Hover Button", url: "/buttons/quad-layer-fill-hover-button" },
-      { title: "Button 3", url: "#" },
     ],
   },
   {
-    title: "Text",
-    icon: Mail,
+    title: "Texts",
+    icon: Type,
     subItems: [
       { title: "Text 1", url: "#" },
-      { title: "Text 2", url: "#" },
-      { title: "Text 3", url: "#" },
     ],
   },
   {
-    title: "Dialog Box",
-    icon: Settings,
+    title: "Dialog Boxes",
+    icon: Package2,
     subItems: [
       { title: "Confirmation", url: "/dialogs/confirmation-dialog" },
-      { title: "Dialog Box 2", url: "#" },
-      { title: "Dialog Box 3", url: "#" },
-    ],
-  },
-  {
-    title: "Forms",
-    icon: Home,
-    subItems: [
-      { title: "Form 1", url: "#" },
-      { title: "Form 2", url: "#" },
-      { title: "Form 3", url: "#" },
     ],
   },
   {
     title: "Cards",
-    icon: Phone,
+    icon: SquareAsterisk,
     subItems: [
       { title: "Product Card", url: "/cards/product-card" },
-      { title: "Card 2", url: "#" },
-      { title: "Card 3", url: "#" },
-    ],
-  },
-  {
-    title: "Tables",
-    icon: Info,
-    subItems: [
-      { title: "Table 1", url: "#" },
-      { title: "Table 2", url: "#" },
-      { title: "Table 3", url: "#" },
     ],
   },
   {
     title: "Notifications",
-    icon: BotMessageSquare,
+    icon: Bell,
     subItems: [
       { title: "Success Notification", url: "/notifications/success" },
-      { title: "Table 2", url: "#" },
-      { title: "Table 3", url: "#" },
     ],
   },
   {
