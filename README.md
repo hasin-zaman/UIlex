@@ -8,7 +8,7 @@
 
 ## Description
 
-UIlex has been built to make life easier for developers and to give back to the community. Often, developers, including myself, face challenges when searching through previous projects to find components that can be reused. With UIlex, you can add your reusable components for both yourself and the rest of the community. You can make meaningful contributions without taking too much time and get featured on UIlex. As our slogan states, this platform is meant to be by you and for you.
+UIlex has been built to make life easier for developers and to give back to the community. Often, developers, including myself, face challenges when searching through previous projects to find components that can be reused. With UIlex, you can add your reusable components for both yourself and the rest of the community. You can make meaningful contributions and get featured on UIlex. As our slogan states, this platform is meant to be by you and for you.
 
 ## Tech Stack
 
