@@ -1,4 +1,4 @@
-import { Inbox, Mail, Settings, Home, Phone, Cloud, Info, BotMessageSquare, Star } from "lucide-react";
+import {Inbox, Mail, Settings, Home, Phone, Cloud, Info, BotMessageSquare, Star, Users} from "lucide-react";
 
 export const navlinks = [
   {
@@ -72,5 +72,12 @@ export const navlinks = [
             { title: "Rating Input Component", url: "/ratings/rating-input" },
             { title: "Rating Score Component", url: "/ratings/rating-score" },
         ],
-    },
+  },
+  {
+    title: "Avatars",
+    icon: Users,
+    subItems: [
+      { title: "Avatar", url: "/avatars/avatar" },
+    ],
+  }
 ];
