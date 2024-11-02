@@ -11,13 +11,6 @@ export const navlinks = [
     ],
   },
   {
-    title: "Texts",
-    icon: Type,
-    subItems: [
-      { title: "Text 1", url: "#" },
-    ],
-  },
-  {
     title: "Dialog Boxes",
     icon: Package2,
     subItems: [
@@ -52,5 +45,12 @@ export const navlinks = [
     subItems: [
       { title: "Avatar", url: "/avatars/avatar" },
     ],
-  }
+  },
+  // {
+  //   title: "Texts",
+  //   icon: Type,
+  //   subItems: [
+  //     { title: "Text 1", url: "#" },
+  //   ],
+  // },
 ];

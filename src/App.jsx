@@ -11,7 +11,7 @@ import { RatingInputComponentPage } from "./reusable-components/rating/rating-in
 import { RatingScoreComponentPage } from "./reusable-components/rating/rating-score/RatingScoreComponentPage";
 import { ProductCardPage } from "./reusable-components/cards/product-card/ProductCardPage";
 import { ConfirmDialogPage } from "./reusable-components/dialogs/confirmation/ConfirmDialogPage";
-import {AvatarPage} from "@/reusable-components/avatars/avatar/AvatarPage.jsx";
+import { AvatarPage } from "@/reusable-components/avatars/avatar/AvatarPage.jsx";
 
 function App() {
   return (
