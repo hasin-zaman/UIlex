@@ -2,7 +2,7 @@ import { SidebarProvider } from "./components/ui/sidebar";
 import { AppSidebar } from "./custom-components/AppSidebar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { LoadingButtonPage } from "./reusable-components/buttons/loading-button/LoadingButtonPage";
-import { WriteNamePage } from "./reusable-components/Text/writeName-text/WriteNamePage";
+import { AnimatedInputPage } from "./reusable-components/input-fields/animated-input/AnimatedInputPage";
 import { Main } from "./custom-components/Main";
 
 
@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main content={<LoadingButtonPage />} />} />
           <Route path="/buttons/loading-button" element={<Main content={<LoadingButtonPage />} />} />
-          <Route path="/Text/writeName-text" element={<Main content={<WriteNamePage />} />} />
+          <Route path="/input-fields/animated-input" element={<Main content={<AnimatedInputPage />} />} />
         </Routes>
       </Router>
     </SidebarProvider>

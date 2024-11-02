@@ -14,9 +14,18 @@ export const navlinks = [
     title: "Text",
     icon: Mail,
     subItems: [
-      { title: "Write Name", url: "/Text/writeName-text" },
+      { title: "Text 1", url: "#" },
       { title: "Text 2", url: "#" },
       { title: "Text 3", url: "#" },
+    ],
+  },
+  {
+    title: "Input Fields",
+    icon: Mail,
+    subItems: [
+      { title: "Animated Input", url: "/input-fields/animated-input" },
+      { title: "Input Field 2", url: "#" },
+      { title: "Input Field 3", url: "#" },
     ],
   },
   {
