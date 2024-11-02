@@ -19,7 +19,7 @@ export function AppSidebar() {
   return (
     <Sidebar>
       <SidebarHeader>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center mt-5">
             <a href="/">
               <Logo />
             </a>
