@@ -1,6 +1,7 @@
 import { SidebarProvider } from "./components/ui/sidebar";
 import { AppSidebar } from "./custom-components/AppSidebar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { AnimatedInputPage } from "./reusable-components/input-fields/animated-input/AnimatedInputPage";
 import { Main } from "./custom-components/Main";
 import { HomePage } from "./custom-components/HomePage";
 import { SuccessNotificationPage } from "./reusable-components/notifications/success-notification/SuccessNotificationPage";
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/buttons/loading-button" element={<Main content={<LoadingButtonPage />} />} />
+          <Route path="/input-fields/animated-input" element={<Main content={<AnimatedInputPage />} />} />
           <Route path="/buttons/gradient-button" element={<Main content={<GradientButtonPage />} />} />
           <Route path="/cards/product-card" element={<Main content={<ProductCardPage />} />} />
           <Route path="/buttons/quad-layer-fill-hover-button" element={<Main content={<QuadLayerFillHoverButtonPage />} />} />
