@@ -3,7 +3,7 @@ import { useState } from "react";
 import CodeAndComponentViewer from "@/custom-components/CodeAndComponentViewer";
 import { Title } from "@/custom-components/Title";
 import { Card } from "@/components/ui/card";
-import ConfirmDialog from "./ConfirmDialog";
+import ConfirmDialog from "./ConfirmDialog2";
 import GradientButton from "@/reusable-components/buttons/gradient-button/GradientButton";
 
 export function ConfirmDialogPage() {
