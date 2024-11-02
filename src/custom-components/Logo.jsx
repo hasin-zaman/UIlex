@@ -1,6 +1,6 @@
 import logo from '../assets/uilex.png';
 
-export function Logo({ width = 60, height = 'auto' }) {
+export function Logo({ width = 70, height = 'auto' }) {
   return (
     <img
       src={logo}
