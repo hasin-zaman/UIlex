@@ -1,7 +1,6 @@
 import { SidebarProvider } from "./components/ui/sidebar";
 import { AppSidebar } from "./custom-components/AppSidebar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { WriteNamePage } from "./reusable-components/Text/writeName-text/WriteNamePage";
 import { Main } from "./custom-components/Main";
 import { SuccessNotificationPage } from "./reusable-components/notifications/success-notification/SuccessNotificationPage";
 import { LoadingButtonPage } from "./reusable-components/buttons/loading-button/LoadingButtonPage";
@@ -20,7 +19,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Main content={<LoadingButtonPage />} />} />
           <Route path="/buttons/loading-button" element={<Main content={<LoadingButtonPage />} />} />
-          <Route path="/Text/writeName-text" element={<Main content={<WriteNamePage />} />} />
           <Route path="/buttons/gradient-button" element={<Main content={<GradientButtonPage />} />} />
           <Route path="/cards/product-card" element={<Main content={<ProductCardPage />} />} />
           <Route path="/buttons/quad-layer-fill-hover-button" element={<Main content={<QuadLayerFillHoverButtonPage />} />} />
