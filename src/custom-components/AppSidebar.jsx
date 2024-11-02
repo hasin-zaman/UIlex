@@ -14,15 +14,16 @@ import {
 import { Collapsible, CollapsibleTrigger, CollapsibleContent } from "@/components/ui/collapsible";
 import { Logo } from "./Logo";
 import { navlinks } from "@/lib/navlinks";
+import { Link } from "react-router-dom";
 
 export function AppSidebar() {
   return (
     <Sidebar>
       <SidebarHeader>
         <div className="flex justify-center items-center mt-5">
-            <a href="/">
+            <Link to="/">
               <Logo />
-            </a>
+            </Link>
         </div>
       </SidebarHeader>
       <SidebarContent>
@@ -36,10 +37,10 @@ export function AppSidebar() {
 
                     <CollapsibleTrigger asChild>
                       <SidebarMenuButton asChild className="text-sidebar-foreground hover:text-primary-foreground">
-                        <a href="#">
+                        <Link>
                           <item.icon />
                           <span>{item.title}</span>
-                        </a>
+                        </Link>
                       </SidebarMenuButton>
                     </CollapsibleTrigger>
 
@@ -47,9 +48,9 @@ export function AppSidebar() {
                       <SidebarMenuSub>
                         {item.subItems.map((subItem) => (
                           <SidebarMenuSubItem key={subItem.title}>
-                            <a href={subItem.url}>
+                            <Link to={subItem.url}>
                               <span>{subItem.title}</span>
-                            </a>
+                            </Link>
                           </SidebarMenuSubItem>
                         ))}
                       </SidebarMenuSub>
