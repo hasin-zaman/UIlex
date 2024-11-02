@@ -21,6 +21,15 @@ export const navlinks = [
     ],
   },
   {
+    title: "Input Fields",
+    icon: Mail,
+    subItems: [
+      { title: "Animated Input", url: "/input-fields/animated-input" },
+      { title: "Input Field 2", url: "#" },
+      { title: "Input Field 3", url: "#" },
+    ],
+  },
+  {
     title: "Dialog Box",
     icon: Settings,
     subItems: [
