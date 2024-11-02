@@ -1,4 +1,4 @@
-import { Inbox, Mail, Settings, Home, Phone, Cloud, Info } from "lucide-react";
+import {Inbox, Mail, Settings, Home, Phone, Cloud, Info, BotMessageSquare, Star, Users} from "lucide-react";
 
 export const navlinks = [
   {
@@ -6,7 +6,8 @@ export const navlinks = [
     icon: Inbox,
     subItems: [
       { title: "Loading Button", url: "/buttons/loading-button" },
-      { title: "Button 2", url: "#" },
+      { title: "Gradient Button", url: "/buttons/gradient-button" },
+      { title: "Quad Layer Fill Hover Button", url: "/buttons/quad-layer-fill-hover-button" },
       { title: "Button 3", url: "#" },
     ],
   },
@@ -50,7 +51,7 @@ export const navlinks = [
     title: "Cards",
     icon: Phone,
     subItems: [
-      { title: "Card 1", url: "#" },
+      { title: "Product Card", url: "/cards/product-card" },
       { title: "Card 2", url: "#" },
       { title: "Card 3", url: "#" },
     ],
@@ -64,4 +65,28 @@ export const navlinks = [
       { title: "Table 3", url: "#" },
     ],
   },
+  {
+    title: "Notifications",
+    icon: BotMessageSquare,
+    subItems: [
+      { title: "Success Notification", url: "/notifications/success" },
+      { title: "Table 2", url: "#" },
+      { title: "Table 3", url: "#" },
+    ],
+  },
+  {
+        title: "Ratings",
+        icon: Star,
+        subItems: [
+            { title: "Rating Input Component", url: "/ratings/rating-input" },
+            { title: "Rating Score Component", url: "/ratings/rating-score" },
+        ],
+  },
+  {
+    title: "Avatars",
+    icon: Users,
+    subItems: [
+      { title: "Avatar", url: "/avatars/avatar" },
+    ],
+  }
 ];
