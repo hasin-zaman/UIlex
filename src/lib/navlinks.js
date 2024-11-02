@@ -1,4 +1,4 @@
-import { SendHorizontal, Type, Package2, SquareAsterisk, Bell, Star } from "lucide-react";
+import { SendHorizontal, Type, Package2, SquareAsterisk, Bell, Star, Users } from "lucide-react";
 
 export const navlinks = [
   {

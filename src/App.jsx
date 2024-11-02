@@ -28,9 +28,7 @@ function App() {
           <Route path="/ratings/rating-input" element={<Main content={<RatingInputComponentPage />} />} />
           <Route path="/ratings/rating-score" element={<Main content={<RatingScoreComponentPage />} />} />
           <Route path="/dialogs/confirmation-dialog" element={<Main content={<ConfirmDialogPage />} />} />
-
           <Route path="/avatars/avatar" element={<Main content={<AvatarPage />} />} />
-
         </Routes>
       </Router>
     </SidebarProvider>
