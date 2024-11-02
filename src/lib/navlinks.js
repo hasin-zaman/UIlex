@@ -45,5 +45,12 @@ export const navlinks = [
             { title: "Rating Input Component", url: "/ratings/rating-input" },
             { title: "Rating Score Component", url: "/ratings/rating-score" },
         ],
-    },
+  },
+  {
+    title: "Avatars",
+    icon: Users,
+    subItems: [
+      { title: "Avatar", url: "/avatars/avatar" },
+    ],
+  }
 ];

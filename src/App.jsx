@@ -11,6 +11,7 @@ import { RatingInputComponentPage } from "./reusable-components/rating/rating-in
 import { RatingScoreComponentPage } from "./reusable-components/rating/rating-score/RatingScoreComponentPage";
 import { ProductCardPage } from "./reusable-components/cards/product-card/ProductCardPage";
 import { ConfirmDialogPage } from "./reusable-components/dialogs/confirmation/ConfirmDialogPage";
+import {AvatarPage} from "@/reusable-components/avatars/avatar/AvatarPage.jsx";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
           <Route path="/ratings/rating-input" element={<Main content={<RatingInputComponentPage />} />} />
           <Route path="/ratings/rating-score" element={<Main content={<RatingScoreComponentPage />} />} />
           <Route path="/dialogs/confirmation-dialog" element={<Main content={<ConfirmDialogPage />} />} />
+
+          <Route path="/avatars/avatar" element={<Main content={<AvatarPage />} />} />
+
         </Routes>
       </Router>
     </SidebarProvider>
