@@ -1,4 +1,4 @@
-import { SendHorizontal, Type, Package2, SquareAsterisk, Bell, Star, Users } from "lucide-react";
+import { SendHorizontal, Package2, SquareAsterisk, Bell, Star, Users, RectangleEllipsis } from "lucide-react";
 
 export const navlinks = [
   {
@@ -32,12 +32,12 @@ export const navlinks = [
     ],
   },
   {
-        title: "Ratings",
-        icon: Star,
-        subItems: [
-            { title: "Rating Input Component", url: "/ratings/rating-input" },
-            { title: "Rating Score Component", url: "/ratings/rating-score" },
-        ],
+    title: "Ratings",
+    icon: Star,
+    subItems: [
+      { title: "Rating Input Component", url: "/ratings/rating-input" },
+      { title: "Rating Score Component", url: "/ratings/rating-score" },
+    ],
   },
   {
     title: "Avatars",
@@ -48,18 +48,9 @@ export const navlinks = [
   },
   {
     title: "Input Fields",
-    icon: Mail,
+    icon: RectangleEllipsis,
     subItems: [
       { title: "Animated Input", url: "/input-fields/animated-input" },
-      { title: "Input Field 2", url: "#" },
-      { title: "Input Field 3", url: "#" },
     ],
   },
-  // {
-  //   title: "Texts",
-  //   icon: Type,
-  //   subItems: [
-  //     { title: "Text 1", url: "#" },
-  //   ],
-  // },
 ];
