@@ -32,7 +32,10 @@ To add a new reusable component to the project, please follow these steps:
 4. **Testing**:
    - Check your page to ensure everything looks good and functions properly.
 
-5. **Making a Pull Request**:
+5. **Add yourself as contributor**:
+   - If you are making your first contribution to UIlex, go to `lib/contributors.js` and add your github details.
+
+6. **Making a Pull Request**:
    - Once you are satisfied with your component, go ahead and create your Pull Request (PR).
    - Don’t forget to include a screenshot of your component's page in your PR description.
    - Please submit PRs to the `dev` branch only.
