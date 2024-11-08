@@ -46,4 +46,11 @@ export const contributors = [
     link: "https://github.com/Giang0402",
     image: "https://avatars.githubusercontent.com/u/142029161?v=4",
   },
+  {
+    id: 8,
+    name: "Govind Gupta",
+    github: "Govindggupta",
+    link: "https://github.com/Govindggupta",
+    image: "https://avatars.githubusercontent.com/u/119047426?v=4",
+  }
 ];

@@ -53,4 +53,11 @@ export const navlinks = [
       { title: "Animated Input", url: "/input-fields/animated-input" },
     ],
   },
+  {
+    title: "Navbars",
+    icon: RectangleEllipsis,
+    subItems: [
+      { title: "Animated Navbar", url: "/navbar/animated-navbar" },
+    ],
+  },
 ];
