@@ -1,6 +1,6 @@
 export function Title({ componentTitle, githubUsername, githubLink }) {
     return (
-      <div className="w-full mb-5 flex flex-col items-center">
+      <div className="w-full mb-5 md:mb-1 flex flex-col items-center">
         <h2 className="text-4xl font-extrabold text-transparent pb-1 bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-lg leading-tight">
           {componentTitle}
         </h2>
