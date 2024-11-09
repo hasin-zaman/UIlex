@@ -13,7 +13,7 @@ export function StarButton() {
 
   return (
     <TooltipProvider>
-      <Tooltip>
+      <Tooltip delayDuration={100}>
         <TooltipTrigger asChild>
           <button
             onClick={openGitHub}
