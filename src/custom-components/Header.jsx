@@ -1,5 +1,6 @@
 import { SidebarTrigger } from "@/components/ui/sidebar";
 import { TextHoverEffect } from "@/components/ui/text-hover-effect";
+import { StarButton } from "./StarButton";
 
 export function Header() {
     return (
@@ -8,6 +9,7 @@ export function Header() {
             <div className="md:h-12 w-full h-8">
                 <TextHoverEffect text="By The People. For The People."/>
             </div>
+            <StarButton />
         </header>
     );
 }
