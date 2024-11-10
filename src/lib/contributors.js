@@ -52,5 +52,12 @@ export const contributors = [
     github: "Govindggupta",
     link: "https://github.com/Govindggupta",
     image: "https://avatars.githubusercontent.com/u/119047426?v=4",
+  },
+  {
+    id: 9,
+    name: "Ravi Mistry",
+    github: "Ravi0529",
+    link: "https://github.com/Ravi0529",
+    image: "https://avatars.githubusercontent.com/u/150603739?v=4",
   }
 ];
