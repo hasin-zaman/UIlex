@@ -60,4 +60,11 @@ export const navlinks = [
       { title: "Animated Navbar", url: "/navbar/animated-navbar" },
     ],
   },
+  {
+    title: "Forms",
+    icon: RectangleEllipsis,
+    subItems: [
+      { title: "Sign-Up Form", url: "/form/signup-form" },
+    ],
+  },
 ];

@@ -14,6 +14,7 @@ import { ProductCardPage } from "./reusable-components/cards/product-card/Produc
 import { ConfirmDialogPage } from "./reusable-components/dialogs/confirmation/ConfirmDialogPage";
 import { AvatarPage } from "@/reusable-components/avatars/avatar/AvatarPage.jsx";
 import { AnimatedNavbarPage } from "@/reusable-components/navbars/animated-navbar/AnimatedNavbarPage.jsx";
+import { SignUpFormPage } from "./reusable-components/forms/signup-form/SignUpFormPage";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/dialogs/confirmation-dialog" element={<Main content={<ConfirmDialogPage />} />} />
           <Route path="/avatars/avatar" element={<Main content={<AvatarPage />} />} />
           <Route path="/navbar/animated-navbar" element={<Main content={<AnimatedNavbarPage />} />} />
+          <Route path="/form/signup-form" element={<Main content={<SignUpFormPage />} />} />
         </Routes>
       </Router>
     </SidebarProvider>
