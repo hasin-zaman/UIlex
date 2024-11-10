@@ -1,9 +1,7 @@
 import { loadingButtonCode, loadingButtonUsage } from "./code";
 import { useState } from "react";
 import LoadingButton from "./LoadingButton";
-import CodeAndComponentViewer from "@/custom-components/CodeAndComponentViewer";
 import { Title } from "@/custom-components/Title";
-import { Card } from "@/components/ui/card";
 import { ComponentAndCodeTabs } from "@/custom-components/ComponentAndCodeTabs";
 
 export function LoadingButtonPage() {

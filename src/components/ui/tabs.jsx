@@ -1,4 +1,3 @@
-"use client";;
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
@@ -26,7 +25,7 @@ export const Tabs = ({
   return (<>
     <div
       className={cn(
-        "flex flex-row items-center py-3 justify-center md:justify-start relative overflow-auto sm:overflow-visible no-visible-scrollbar w-full",
+        "flex flex-row items-center py-3 px-2 justify-center md:justify-start relative overflow-auto sm:overflow-visible no-visible-scrollbar w-full",
         containerClassName
       )}>
       {propTabs.map((tab, idx) => (
@@ -62,7 +61,7 @@ export const Tabs = ({
       active={active}
       key={active.value}
       hovering={hovering}
-      className={cn("mt-[70px]", contentClassName)} />
+      className={cn("mt-[50px]", contentClassName)} />
   </>);
 };
 
@@ -81,8 +80,8 @@ export const FadeInDiv = ({
           key={tab.value}
           layoutId={tab.value}
           style={{
-            scale: 1 - idx * 0.125,
-            top: hovering ? idx * -50 : 0,
+            scale: 1 - idx * 0.05,
+            top: idx * -30,
             zIndex: -idx,
             opacity: idx < 3 ? 1 - idx * 0.1 : 0,
           }}
