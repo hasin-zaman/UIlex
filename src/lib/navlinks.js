@@ -58,6 +58,7 @@ export const navlinks = [
     icon: RectangleEllipsis,
     subItems: [
       { title: "Animated Navbar", url: "/navbar/animated-navbar" },
+      { title: "Animated Navbar Menu", url: "/navbar/animated-navbar-menu" },
     ],
   },
   {
