@@ -16,6 +16,7 @@ import { AvatarPage } from "@/reusable-components/avatars/avatar/AvatarPage.jsx"
 import { AnimatedNavbarPage } from "@/reusable-components/navbars/animated-navbar/AnimatedNavbarPage.jsx";
 import { SignUpFormPage } from "./reusable-components/forms/signup-form/SignUpFormPage";
 import { AnimatedNavbarMenuPage } from "./reusable-components/navbars/animated-navbar-menu/AnimatedNavBarMenuPage";
+import { LoginFormPage } from "./reusable-components/forms/signin-form/SignInFormPage";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path="/navbar/animated-navbar" element={<Main content={<AnimatedNavbarPage />} />} />
           <Route path="/form/signup-form" element={<Main content={<SignUpFormPage />} />} />
           <Route path="/navbar/animated-navbar-menu" element={<Main content={<AnimatedNavbarMenuPage />} />} />
+          <Route path="/form/signin-form" element={<Main content={<LoginFormPage />} />} />
         </Routes>
       </Router>
     </SidebarProvider>
