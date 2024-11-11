@@ -18,6 +18,7 @@ import { SignUpFormPage } from "./reusable-components/forms/signup-form/SignUpFo
 import { AnimatedNavbarMenuPage } from "./reusable-components/navbars/animated-navbar-menu/AnimatedNavBarMenuPage";
 import { LoginFormPage } from "./reusable-components/forms/signin-form/SignInFormPage";
 
+
 function App() {
   return (
     <SidebarProvider>
