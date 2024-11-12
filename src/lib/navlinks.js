@@ -66,6 +66,7 @@ export const navlinks = [
     icon: RectangleEllipsis,
     subItems: [
       { title: "Sign-Up Form", url: "/form/signup-form" },
+      { title: "Sing-In Form", url: "/form/signin-form" },
     ],
   },
 ];
