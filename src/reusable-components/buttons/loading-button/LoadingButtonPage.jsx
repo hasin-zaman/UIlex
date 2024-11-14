@@ -4,6 +4,7 @@ import LoadingButton from "./LoadingButton";
 import { Title } from "@/custom-components/Title";
 import { ComponentAndCodeTabs } from "@/custom-components/ComponentAndCodeTabs";
 import { Card } from "@/components/ui/card";
+import CodeAndComponentViewer from "@/custom-components/CodeAndComponentViewer";
 
 export function LoadingButtonPage() {
   const [loading, setLoading] = useState(false);
