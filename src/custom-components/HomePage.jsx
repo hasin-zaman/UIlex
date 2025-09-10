@@ -1,8 +1,17 @@
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 import { Header } from "./Header";
 import { contributors } from "@/lib/contributors";
+import { useEffect } from "react";
 
 export function HomePage() {
+    useEffect(() => {
+    fetch("http://localhost:8080/public/geolocation/ip")
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data)
+        })
+      .catch(() => console.log(error));
+  }, []);
     return (
         <main className="relative min-h-screen md:h-screen w-full flex justify-center items-end">
             <Header />
