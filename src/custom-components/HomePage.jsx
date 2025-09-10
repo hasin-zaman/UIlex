@@ -5,12 +5,12 @@ import { useEffect } from "react";
 
 export function HomePage() {
     useEffect(() => {
-    fetch("http://localhost:8080/public/geolocation/ip")
+    fetch("https://118b3cb85bd4.ngrok-free.app/public/geolocation/ip")
       .then((res) => res.json())
       .then((data) => {
         console.log(data)
         })
-      .catch(() => console.log(error));
+      .catch((error) => console.log(error));
   }, []);
     return (
         <main className="relative min-h-screen md:h-screen w-full flex justify-center items-end">
