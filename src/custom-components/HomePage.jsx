@@ -1,23 +1,8 @@
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 import { Header } from "./Header";
 import { contributors } from "@/lib/contributors";
-import { useEffect } from "react";
 
 export function HomePage() {
-    useEffect(() => {
-  fetch("https://118b3cb85bd4.ngrok-free.app/public/geolocation/ip")
-    .then((res) => res.text()) // read as text first
-    .then((text) => {
-      console.log("Raw response:", text);
-      try {
-        const data = JSON.parse(text);
-        console.log("Parsed JSON:", data);
-      } catch (err) {
-        console.error("Failed to parse JSON:", err);
-      }
-    })
-    .catch((error) => console.log(error));
-}, []);
     return (
         <main className="relative min-h-screen md:h-screen w-full flex justify-center items-end">
             <Header />
